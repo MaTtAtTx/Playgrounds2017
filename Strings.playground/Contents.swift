@@ -1,9 +1,7 @@
-    //: Playground - noun: a place where people can play
+//: Playground - noun: a place where people can play
 
 import UIKit
-let singleLine = "This is a one line string"
-print(singleLine)
-let multiLine = """
-This is the same as the line above.
-"""
-
+let singleLine = "These are the same."
+//let multiline = """
+//This is the same as the line above just on multiple lines.
+//"""
