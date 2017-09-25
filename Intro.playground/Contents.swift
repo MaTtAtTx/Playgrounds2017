@@ -24,4 +24,6 @@ print(myName)
 //myName = soup
 //Can't assign int a let once assigned
 var test = 157143852
-test = test * myAge
+var test2 :Int
+test2 = test * myAge
+print(test2)
