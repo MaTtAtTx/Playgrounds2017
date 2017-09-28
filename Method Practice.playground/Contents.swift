@@ -47,6 +47,6 @@ else if (guess == 17)
 }
 while (guess > 0)
 {
-    print("????????? \(guess)")
+    print("Test \(guess)")
     guess -= 1
 }
