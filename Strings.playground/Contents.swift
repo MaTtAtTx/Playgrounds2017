@@ -1,7 +1,15 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
+
+//String Change
 let singleLine = "These are the same."
+var changeString = "Test"
+print(changeString)
+changeString = "Test Test Test"
+print(changeString)
+
+
 //let multiline = """
 //This is the same as the line above just on multiple lines.
 //"""
