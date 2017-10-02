@@ -11,8 +11,8 @@ let multiplier = 55
 let message = "\(multiplier) times 750.525 is \(Double(multiplier) * 750.525)"
 
 //Counting Characters
-//let testTest = "testestestestestestestestestestestestestestestest"
-//print ("testTest has \(testTest.count) characters")
+let testTest = "testestestestestestestestestestestestestestestest"
+print ("testTest has \(testTest.characters.count) characters")
 
 //Comparing String
 let quotation = "Testing comparing strings"
