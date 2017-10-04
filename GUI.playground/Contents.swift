@@ -5,6 +5,15 @@ import UIKit
 var str = "Working with GUI"
 var firstView = UIView(frame: CGRect(x: 50, y: 50, width: 400, height: 200))
 firstView.backgroundColor = .red
+firstView.alpha = 0.35353
+
+var secondView  = UIView(frame: CGRect(x: 50, y: 50, width: 255, height: 100))
+secondView.backgroundColor = .blue
+secondView.alpha = 0.777
+
+var thirdView  = UIView(frame: CGRect(x: 50, y: 50, width: 200, height: 200))
+thirdView.backgroundColor = .green
+thirdView.alpha = 1
 
 var firstButton = UIButton(frame: CGRect(x: 50, y: 50, width: 180, height: 100))
 firstButton.backgroundColor = .purple
