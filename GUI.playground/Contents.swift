@@ -32,6 +32,7 @@ firstLabel.text = "Testing a UI Label and seeing if the word wrapping function w
 firstLabel.textColor = .purple
 firstLabel.textAlignment = .center
 firstLabel.lineBreakMode = .byWordWrapping
+firstLabel.backgroundColor = .white
 firstLabel.numberOfLines = 2 //Must have multiple lines set in the label to make word wrapping work
 
 var secondLabel = UILabel(frame: CGRect(x: 50, y: 50, width: 520, height: 100))
@@ -39,4 +40,8 @@ secondLabel.text = "Testing a second label"
 secondLabel.textColor = .red
 secondLabel.textAlignment = .justified
 secondLabel.lineBreakMode = .byWordWrapping
+secondLabel.backgroundColor = .orange
 secondLabel.numberOfLines = 1
+
+var firstDatePicker = UIDatePicker(frame: CGRect(x: 50, y: 50, width: 500, height: 200))
+firstDatePicker.backgroundColor = .yellow
